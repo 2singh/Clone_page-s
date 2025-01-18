@@ -1,0 +1,459 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    background-color: #ffffff;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.Heading_Navs
+{
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #d3dbcc50;
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.left_navs 
+{
+    padding: 0 5px;
+    width: 50%;
+    margin-right: 20%;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    font-weight: 600;
+}
+.logo
+{
+    width: 22%;
+    cursor: pointer;
+}
+.right_nav 
+{
+    width: 16%;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.left_navs a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+.left_navs select
+{
+    background-color: #ffffff01;
+    border: none;
+    cursor: pointer;
+}
+.left_navs a:hover
+{
+    text-decoration: underline;
+}
+.right_nav a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.right_nav a:hover
+{
+    text-decoration: underline;
+}
+.right_nav a:nth-of-type(2)
+{
+    border: 1px solid #ffffff;
+    padding: 8px 15px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
+.main_paragraphs
+{
+    color: white;
+   min-height: 90vh;
+   display: flex;
+   width: 35%;
+   /* height: 100%; */
+   justify-content: center;
+   flex-direction: column;
+   align-items:start;
+   margin-left: 5.8rem;
+}
+.main_paragraphs .first_para
+{
+    font-weight: bolder;
+    font-size: 45px;
+    margin: 0;
+}
+.main_paragraphs .secound_para
+{
+    margin: 0;
+    font-size: 20px;
+}
+.content3
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /* margin-top: 5%; */
+    height: 50px;
+    padding-right:65px;
+    margin-left: 7%;
+    padding-bottom: 38px;
+    /* margin-bottom: 110px; */
+}
+.caintainer_one
+{
+    align-items: center;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.caintainer_one a
+{
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 22px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid white;
+}
+.caintainer_one a:hover
+{
+    background-color: #00000005;
+    color: #ffffff;
+    transition: 300ms;
+}
+.caintainer_two
+{
+    /* width: 25%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.caintainer_two a
+{
+    text-decoration: none;
+    display: flex;
+    font-weight: 600;
+    padding: 10px 25px;
+    align-items: center;
+    color: #ffffff;
+    background-color: #ffffff40;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.caintainer_two a i
+{
+    display: flex;
+    padding-right: 12px;
+}
+.caintainer_two a:hover
+{
+    color: #000000;
+    background-color: #ffffff;
+    transition: 200ms;
+    /* border: 1px solid black; */
+}
+.hr_line
+{
+    margin: 2% 0 2% 0;
+    display: flex;
+    border: 1px solid black;
+}
+.banner
+{
+    position: relative;
+    overflow: hidden;
+}
+.banner>video
+{
+    max-width: 100vw;
+    /* max-height: 100vh; */
+    z-index: -10;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.earth_content   
+{
+    margin-top: 50px;
+    display: flex;
+    align-items:start;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.earth
+{
+    /* width: 50%; */
+    height: 85vh;
+    display: flex;
+    justify-content: start;
+}
+.earth_data
+{
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    align-items:center;
+}
+.earth_content .main_para
+{
+    font-size: 40px;
+    font-weight: 700;
+}
+.main_para .bold
+{
+    background-color: #7ab5d650;
+    padding: 0 5px;
+}
+.earth_data .earth_sub_cantainer
+{
+    width: 100%;
+    font-size: 15px;
+    margin-right: 11%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+.vr_line
+{
+    width: 100%;
+    row-gap: 60px;                                                    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.vr_line_c1
+{
+    display: flex;
+    width: 98%;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.vr_line_c2
+{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.vr_line_c1 div:nth-of-type(1)
+{
+    margin-right: 5px;
+}
+.vr_line_c1 div:nth-of-type(2)
+{
+    padding-right: 25px;
+}
+.vr_line span
+{
+    border: 3px solid #33dcc5;
+    border-radius: 3px;
+}
+.vr_line p
+{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.text 
+{
+    font-size: 20px;
+}
+.four_box
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.four_box .text
+{
+    font-size: 15px;
+    font-weight:600;
+    margin-left: 7%;
+}
+.boxs
+{
+    width: 87%;
+    justify-content: space-between;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    flex-direction: row;
+    display: flex;
+}
+.boxs .material-icons
+{
+    padding: 5px;
+    border-radius: 10px;
+}
+.boxs span p
+{
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    width: 60%;
+ }
+.infinity
+{
+    cursor: pointer;
+    border: 2px solid #747474;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 65px;
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+}
+.infinity span
+{
+    color: grey;
+}
+.infinity span p .material-icons
+{
+    visibility: hidden;
+    cursor: pointer;
+    opacity: 0;
+    color: #000000;
+    font-size: 22px;
+    transform: translateX(-10px);
+}
+.infinity:hover span p .material-icons
+{
+    visibility: visible;
+    opacity: 1.0;
+    transition: 400ms ease;
+    transform: translateX(0);
+}
+.infinity .i-bg-color > .material-icons
+{
+    /* background-color:#f51b7634 ; */
+    color: #f51b76;
+    /* border-radius: 10px; */
+}
+.infinity .i-bg-color
+{
+    background-color: #f51b761b;
+    width:88%;
+    padding: 2px;
+    border-radius: 50px;
+}
+.infinity .i-bg-color1
+{
+    background-color: #f51b761d;
+    width: 21%;
+    padding: 5px;
+    border-radius: 50px;
+}
+.partners , .developers , .creators 
+{
+    border: 2px solid #747474;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 5px 5px grey;
+    cursor: pointer;
+}
+.partners span p .material-icons 
+, .developers  span p .material-icons 
+, .creators span p .material-icons 
+{
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 22px;
+    transform: translateX(-10px);
+}
+.partners:hover span p .material-icons
+, .developers:hover span p .material-icons
+, .creators:hover span p .material-icons
+{
+    visibility: visible;
+    opacity: 1.0;
+    transition: 400ms ease;
+    transform: translateX(0);
+}
+.partners span , .developers span , .creators  span
+{
+    color: grey;
+}
+.partners .i-bg-color  i
+{
+    color: #1313d6;
+    width: 100%;
+}
+.partners .i-bg-color
+{
+    background-color: #1313d611;
+    padding: 2px;
+    width:89.5%;
+    border-radius: 50px;
+}
+.partners .i-bg-color1
+{
+    background-color: #1313d61a;
+    padding: 5px;
+    border-radius: 50px;
+    width: 18%;
+}
+.developers .i-bg-color  i 
+{
+    color: #cf3622;
+}
+.developers .i-bg-color
+{
+    background-color: #cf362214;
+    width: 88%;
+    padding: 2px;
+    border-radius: 50px;
+}
+.developers .i-bg-color1
+{
+    background-color: #cf362211;
+    width:18%;
+    padding: 5px;
+    border-radius: 50px;
+}
+.creators .i-bg-color  i
+{
+    /* background-color: #8000802e; */
+    color: #800080;
+    /* border-radius: 10px; */
+}
+.creators .i-bg-color
+{
+    padding: 2px;
+    width: 87%;
+    background-color: #80008014;
+    border-radius: 50px;
+}
+.creators .i-bg-color1
+{
+    background-color: #80008012;
+    width:18%;
+    padding: 5px;
+    border-radius: 50px;
+}
